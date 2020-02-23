@@ -32,7 +32,7 @@ namespace ShivaWedsPooja
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Website development in Progress - Wedding's on 15th April 2020!");
                 });
             });
         }
